@@ -93,9 +93,9 @@ export default function BuildPhase({ players, assignments, onComplete }) {
       })
     })
 
-    // Shuffle and fill remaining combat slots (5 total for non-support, 4 for support)
+    // Shuffle and fill remaining combat slots (always 5)
     const shuffled = shuffleArray(combatItems)
-    const maxCombat = isSupport ? 4 : 5
+    const maxCombat = 5
     let idx = 0
     while (combat.length < maxCombat && idx < shuffled.length) {
       combat.push(shuffled[idx])
