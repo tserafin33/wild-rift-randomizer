@@ -22,7 +22,8 @@ function App() {
   const handlePositionsComplete = (positionAssignments) => {
     const updated = {}
     Object.keys(positionAssignments).forEach(player => {
-      updated[player] = { position: positionAssignments[player] }
+      const pos = positionAssignments[player]
+      updated[player] = { position: pos?.name || pos }
     })
     updateAssignments(updated)
     setPhase('champions')
