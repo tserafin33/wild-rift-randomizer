@@ -1,0 +1,432 @@
+{
+  "keystones": [
+    {
+      "id": "conqueror",
+      "name_es": "Conquistador",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "image": "https://www.wildriftfire.com/images/runes/conqueror.png"
+    },
+    {
+      "id": "lethaltempo",
+      "name_es": "Tempo Letal",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "image": "https://www.wildriftfire.com/images/runes/lethal-tempo.png"
+    },
+    {
+      "id": "fleetfootwork",
+      "name_es": "Paso Ligero",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "image": "https://www.wildriftfire.com/images/runes/fleet-footwork.png"
+    },
+    {
+      "id": "empowerment",
+      "name_es": "Empoderamiento",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "image": "https://www.wildriftfire.com/images/runes/empowerment.png"
+    },
+    {
+      "id": "electrocute",
+      "name_es": "Electrocutar",
+      "color": "#D44242",
+      "path": "Domination",
+      "image": "https://www.wildriftfire.com/images/runes/electrocute.png"
+    },
+    {
+      "id": "darkharvest",
+      "name_es": "Cosecha Oscura",
+      "color": "#D44242",
+      "path": "Domination",
+      "image": "https://www.wildriftfire.com/images/runes/dark-harvest.png"
+    },
+    {
+      "id": "summonaery",
+      "name_es": "Invocar Aria",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "image": "https://www.wildriftfire.com/images/runes/aery.png"
+    },
+    {
+      "id": "arcanecomet",
+      "name_es": "Cometa Arcano",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "image": "https://www.wildriftfire.com/images/runes/arcane-comet.png"
+    },
+    {
+      "id": "phaserush",
+      "name_es": "Fase Extrema",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "image": "https://www.wildriftfire.com/images/runes/phase-rush.png"
+    },
+    {
+      "id": "graspoftheundying",
+      "name_es": "Agarre del Imperecedero",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "image": "https://www.wildriftfire.com/images/runes/grasp-of-the-undying.png"
+    },
+    {
+      "id": "guardian",
+      "name_es": "Guardián",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "image": "https://www.wildriftfire.com/images/runes/guardian.png"
+    },
+    {
+      "id": "iceoverlord",
+      "name_es": "Señor del Hielo",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "image": "https://www.wildriftfire.com/images/runes/ice-overlord.png"
+    },
+    {
+      "id": "glacialaugment",
+      "name_es": "Aumento Glacial",
+      "color": "#3B79C5",
+      "path": "Inspiration",
+      "image": "https://www.wildriftfire.com/images/runes/glacial-augment.png"
+    },
+    {
+      "id": "firststrike",
+      "name_es": "Primer Golpe",
+      "color": "#3B79C5",
+      "path": "Inspiration",
+      "image": "https://www.wildriftfire.com/images/runes/first-strike.png"
+    }
+  ],
+  "minorRunes": [
+    {
+      "id": "battlezeal",
+      "name_es": "Fervor de Batalla",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/battle-zeal.png"
+    },
+    {
+      "id": "brutal",
+      "name_es": "Brutal",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/brutal.png"
+    },
+    {
+      "id": "triumph",
+      "name_es": "Triunfo",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/triumph.png"
+    },
+    {
+      "id": "coupdegrace",
+      "name_es": "Golpe de Gracia",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/coup-de-grace.png"
+    },
+    {
+      "id": "cutdown",
+      "name_es": "Derribar",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/cut-down.png"
+    },
+    {
+      "id": "laststand",
+      "name_es": "Último Recurso",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/last-stand.png"
+    },
+    {
+      "id": "legendalacrity",
+      "name_es": "Leyenda: Alacridad",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/legend-alacrity.png"
+    },
+    {
+      "id": "legendbloodline",
+      "name_es": "Leyenda: Línea de Sangre",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/legend-bloodline.png"
+    },
+    {
+      "id": "legendtenacity",
+      "name_es": "Leyenda: Tenacidad",
+      "color": "#C8AA6E",
+      "path": "Precision",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/legend-tenacity.png"
+    },
+    {
+      "id": "cheapshot",
+      "name_es": "Golpe Barato",
+      "color": "#D44242",
+      "path": "Domination",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/cheap-shot.png"
+    },
+    {
+      "id": "empoweredattack",
+      "name_es": "Ataque Potenciado",
+      "color": "#D44242",
+      "path": "Domination",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/empowered-attack.png"
+    },
+    {
+      "id": "suddenimpact",
+      "name_es": "Impacto Repentino",
+      "color": "#D44242",
+      "path": "Domination",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/sudden-impact.png"
+    },
+    {
+      "id": "chainassault",
+      "name_es": "Asalto Encadenado",
+      "color": "#D44242",
+      "path": "Domination",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/chain-assault.png"
+    },
+    {
+      "id": "hubris",
+      "name_es": "Hubris",
+      "color": "#D44242",
+      "path": "Domination",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/hubris.png"
+    },
+    {
+      "id": "tyrant",
+      "name_es": "Tirano",
+      "color": "#D44242",
+      "path": "Domination",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/tyrant.png"
+    },
+    {
+      "id": "eyeballcollection",
+      "name_es": "Colección de Globos Oculares",
+      "color": "#D44242",
+      "path": "Domination",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/eyeball-collector.png"
+    },
+    {
+      "id": "ingenioushunter",
+      "name_es": "Cazador Ingenioso",
+      "color": "#D44242",
+      "path": "Domination",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/ingenious-hunter.png"
+    },
+    {
+      "id": "relentlesshunter",
+      "name_es": "Cazador Incansable",
+      "color": "#D44242",
+      "path": "Domination",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/relentless-hunter.png"
+    },
+    {
+      "id": "zombieward",
+      "name_es": "Centinela Zombi",
+      "color": "#D44242",
+      "path": "Domination",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/zombie-ward.png"
+    },
+    {
+      "id": "manaflowband",
+      "name_es": "Banda de Maná",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/manaflow-band.png"
+    },
+    {
+      "id": "nimbuscloak",
+      "name_es": "Capa Nimbus",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/nimbus-cloak.png"
+    },
+    {
+      "id": "transcendence",
+      "name_es": "Trascendencia",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/transcendece.png"
+    },
+    {
+      "id": "celerity",
+      "name_es": "Celeridad",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/celerity.png"
+    },
+    {
+      "id": "absolutefocus",
+      "name_es": "Foco Absoluto",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/absolute-focus.png"
+    },
+    {
+      "id": "scorch",
+      "name_es": "Quemadura",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/scorch.png"
+    },
+    {
+      "id": "gatheringstorm",
+      "name_es": "Tormenta Creciente",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/gathering-storm.png"
+    },
+    {
+      "id": "axiomarcanist",
+      "name_es": "Axiomático Arcano",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/axiom-arcanist.png"
+    },
+    {
+      "id": "perseverance",
+      "name_es": "Perseverancia",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/perseverance.png"
+    },
+    {
+      "id": "ixtaliseedjar",
+      "name_es": "Semillero Ixtali",
+      "color": "#6E4DC4",
+      "path": "Sorcery",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/ixtali-seedjar.png"
+    },
+    {
+      "id": "demolish",
+      "name_es": "Demoler",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/demolish.png"
+    },
+    {
+      "id": "fontoflife",
+      "name_es": "Fuente de Vida",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/font-of-life.png"
+    },
+    {
+      "id": "courageofthecolossus",
+      "name_es": "Coraje del Coloso",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/courage-of-the-colossus.png"
+    },
+    {
+      "id": "unshakeable",
+      "name_es": "Inquebrantable",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/unshakeable.png"
+    },
+    {
+      "id": "boneplating",
+      "name_es": "Placas Óseas",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/bone-plating.png"
+    },
+    {
+      "id": "conditioning",
+      "name_es": "Acondicionamiento",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/conditioning.png"
+    },
+    {
+      "id": "nullifyingorb",
+      "name_es": "Orbe Anulador",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/nullifying-orb.png"
+    },
+    {
+      "id": "secondwind",
+      "name_es": "Segundo Aliento",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 2,
+      "image": "https://www.wildriftfire.com/images/runes/second-wind.png"
+    },
+    {
+      "id": "overgrowth",
+      "name_es": "Sobrecarga",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/overgrowth.png"
+    },
+    {
+      "id": "revitalize",
+      "name_es": "Revitalizar",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/revitalize.png"
+    },
+    {
+      "id": "botanist",
+      "name_es": "Botánico",
+      "color": "#4B8126",
+      "path": "Resolve",
+      "slot": 3,
+      "image": "https://www.wildriftfire.com/images/runes/botanist.png"
+    },
+    {
+      "id": "hextechflashtraption",
+      "name_es": "Flashtraption Hextech",
+      "color": "#3B79C5",
+      "path": "Inspiration",
+      "slot": 1,
+      "image": "https://www.wildriftfire.com/images/runes/hextech-flashtraption.png"
+    }
+  ]
+}

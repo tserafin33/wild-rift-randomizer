@@ -1,0 +1,408 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg: #282828;
+    --color-surface: #1E1E1E;
+    --color-surface-2: #222222;
+    --color-surface-3: #2A2A2A;
+    --color-glass: rgba(30, 30, 30, 0.6);
+    --color-glass-light: rgba(40, 40, 40, 0.4);
+    --color-glass-border: rgba(255, 255, 255, 0.08);
+
+    --color-blue: #023E8A;
+    --color-red: #890202;
+    --color-green: #9bf019;
+    --color-yellow: #FF3745;
+    --color-violet: #4B5C71;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+    --glow-blue: 0 0 20px rgba(2, 62, 138, 0.5), 0 0 40px rgba(2, 62, 138, 0.2);
+    --glow-red: 0 0 20px rgba(137, 2, 2, 0.5), 0 0 40px rgba(137, 2, 2, 0.2);
+    --glow-green: 0 0 15px rgba(155, 240, 25, 0.4), 0 0 30px rgba(155, 240, 25, 0.15);
+    --glow-yellow: 0 0 15px rgba(255, 55, 69, 0.4), 0 0 30px rgba(255, 55, 69, 0.15);
+    --glow-violet: 0 0 15px rgba(75, 92, 113, 0.5), 0 0 30px rgba(75, 92, 113, 0.2);
+
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.5);
+    --shadow-lg: 0 8px 32px rgba(0,0,0,0.6);
+    --shadow-xl: 0 16px 48px rgba(0,0,0,0.7);
+    --shadow-glow-blue: 0 4px 20px rgba(2, 62, 138, 0.4);
+    --shadow-glow-red: 0 4px 20px rgba(137, 2, 2, 0.4);
+
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+    --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+    --ease-decel: cubic-bezier(0, 0, 0.2, 1);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--color-bg);
+  color: var(--color-white);
+}
+
+#root {
+  min-height: 100dvh;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-blue);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+button:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+button {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Safe area padding for notch devices */
+@supports (padding: env(safe-area-inset-bottom)) {
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* ============================================
+   GLASSMORPHISM SYSTEM
+   ============================================ */
+
+.glass {
+  background: var(--color-glass);
+  backdrop-filter: blur(16px) saturate(1.2);
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  border: 1px solid var(--color-glass-border);
+}
+
+.glass-strong {
+  background: rgba(30, 30, 30, 0.75);
+  backdrop-filter: blur(24px) saturate(1.4);
+  -webkit-backdrop-filter: blur(24px) saturate(1.4);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-subtle {
+  background: rgba(30, 30, 30, 0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Glass with colored glow */
+.glass-blue {
+  background: rgba(2, 62, 138, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(2, 62, 138, 0.3);
+  box-shadow: var(--shadow-glow-blue), inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.glass-red {
+  background: rgba(137, 2, 2, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(137, 2, 2, 0.3);
+  box-shadow: var(--shadow-glow-red), inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.glass-green {
+  background: rgba(155, 240, 25, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(155, 240, 25, 0.2);
+  box-shadow: var(--glow-green), inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.glass-yellow {
+  background: rgba(255, 55, 69, 0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 55, 69, 0.25);
+  box-shadow: var(--glow-yellow), inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+.glass-violet {
+  background: rgba(75, 92, 113, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(75, 92, 113, 0.3);
+  box-shadow: var(--glow-violet), inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes blur-in {
+  from { opacity: 0; filter: blur(8px); }
+  to { opacity: 1; filter: blur(0); }
+}
+
+@keyframes glow-pulse-blue {
+  0%, 100% { box-shadow: 0 0 8px rgba(2, 62, 138, 0.3); }
+  50% { box-shadow: var(--glow-blue); }
+}
+
+@keyframes glow-pulse-red {
+  0%, 100% { box-shadow: 0 0 8px rgba(137, 2, 2, 0.3); }
+  50% { box-shadow: var(--glow-red); }
+}
+
+@keyframes glow-pulse-green {
+  0%, 100% { box-shadow: 0 0 8px rgba(155, 240, 25, 0.2); }
+  50% { box-shadow: var(--glow-green); }
+}
+
+@keyframes result-reveal {
+  from { opacity: 0; transform: scale(0.9) translateY(8px); filter: blur(4px); }
+  to { opacity: 1; transform: scale(1) translateY(0); filter: blur(0); }
+}
+
+@keyframes border-glow-blue {
+  0%, 100% { border-color: rgba(2, 62, 138, 0.3); }
+  50% { border-color: rgba(2, 62, 138, 0.7); }
+}
+
+@keyframes border-glow-red {
+  0%, 100% { border-color: rgba(137, 2, 2, 0.3); }
+  50% { border-color: rgba(137, 2, 2, 0.7); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes neon-flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
+  20%, 24%, 55% { opacity: 0.7; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s var(--ease-out-expo) both;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.4s var(--ease-spring) both;
+}
+
+.animate-blur-in {
+  animation: blur-in 0.5s var(--ease-decel) both;
+}
+
+.animate-result-reveal {
+  animation: result-reveal 0.6s var(--ease-out-expo) both;
+}
+
+.animate-glow-pulse-blue {
+  animation: glow-pulse-blue 2s ease-in-out infinite;
+}
+
+.animate-glow-pulse-red {
+  animation: glow-pulse-red 2s ease-in-out infinite;
+}
+
+.animate-glow-pulse-green {
+  animation: glow-pulse-green 1.5s ease-in-out infinite;
+}
+
+.animate-border-glow-blue {
+  animation: border-glow-blue 2s ease-in-out infinite;
+}
+
+.animate-border-glow-red {
+  animation: border-glow-red 2s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.05) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Stagger children */
+.stagger-children > * {
+  animation: fade-in-up 0.4s var(--ease-out-expo) both;
+}
+.stagger-children > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-children > *:nth-child(2) { animation-delay: 60ms; }
+.stagger-children > *:nth-child(3) { animation-delay: 120ms; }
+.stagger-children > *:nth-child(4) { animation-delay: 180ms; }
+.stagger-children > *:nth-child(5) { animation-delay: 240ms; }
+
+/* ============================================
+   CARD HOVER LIFT
+   ============================================ */
+
+.card-lift {
+  transition: transform 0.25s var(--ease-spring), box-shadow 0.25s ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .card-lift:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-xl);
+  }
+}
+
+/* ============================================
+   NEON TEXT EFFECTS
+   ============================================ */
+
+.neon-blue {
+  color: var(--color-blue);
+  text-shadow: 0 0 10px rgba(2, 62, 138, 0.6), 0 0 30px rgba(2, 62, 138, 0.3);
+}
+
+.neon-red {
+  color: var(--color-red);
+  text-shadow: 0 0 10px rgba(137, 2, 2, 0.6), 0 0 30px rgba(137, 2, 2, 0.3);
+}
+
+.neon-green {
+  color: var(--color-green);
+  text-shadow: 0 0 8px rgba(155, 240, 25, 0.5), 0 0 20px rgba(155, 240, 25, 0.2);
+}
+
+/* ============================================
+   BUTTON SYSTEM
+   ============================================ */
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--color-blue) 0%, #012d6b 100%);
+  color: white;
+  border: 1px solid rgba(2, 62, 138, 0.5);
+  box-shadow: var(--shadow-md), 0 0 15px rgba(2, 62, 138, 0.2);
+  transition: all 0.2s ease;
+}
+.btn-primary:hover {
+  box-shadow: var(--shadow-lg), 0 0 25px rgba(2, 62, 138, 0.35);
+  border-color: rgba(2, 62, 138, 0.7);
+}
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, var(--color-red) 0%, #5c0101 100%);
+  color: white;
+  border: 1px solid rgba(137, 2, 2, 0.5);
+  box-shadow: var(--shadow-md), 0 0 15px rgba(137, 2, 2, 0.2);
+  transition: all 0.2s ease;
+}
+.btn-danger:hover {
+  box-shadow: var(--shadow-lg), 0 0 25px rgba(137, 2, 2, 0.35);
+  border-color: rgba(137, 2, 2, 0.7);
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #1a5c05 0%, #0d3002 100%);
+  color: var(--color-green);
+  border: 1px solid rgba(155, 240, 25, 0.3);
+  box-shadow: var(--shadow-md), 0 0 12px rgba(155, 240, 25, 0.15);
+  transition: all 0.2s ease;
+}
+.btn-success:hover {
+  box-shadow: var(--shadow-lg), 0 0 20px rgba(155, 240, 25, 0.25);
+  border-color: rgba(155, 240, 25, 0.5);
+}
+
+.btn-glass {
+  background: var(--color-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: white;
+  border: 1px solid var(--color-glass-border);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+}
+.btn-glass:hover {
+  background: rgba(40, 40, 40, 0.7);
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow: var(--shadow-md);
+}
+
+/* Shimmer on buttons */
+.btn-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.btn-shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+  transition: left 0.5s ease;
+}
+.btn-shimmer:hover::after {
+  left: 100%;
+}
+
+/* ============================================
+   DIVIDER LINE (gaming accent)
+   ============================================ */
+
+.gaming-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(2, 62, 138, 0.4) 20%, rgba(137, 2, 2, 0.4) 80%, transparent 100%);
+}
+
+/* ============================================
+   INSET SHADOW (inner glow for cards)
+   ============================================ */
+
+.inset-glow-blue {
+  box-shadow: inset 0 1px 0 rgba(2, 62, 138, 0.15), inset 0 -1px 0 rgba(0,0,0,0.2);
+}
+
+.inset-glow-red {
+  box-shadow: inset 0 1px 0 rgba(137, 2, 2, 0.15), inset 0 -1px 0 rgba(0,0,0,0.2);
+}

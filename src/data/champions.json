@@ -1,0 +1,969 @@
+[
+  {
+    "id": "aatrox",
+    "name_es": "Aatrox",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Aatrox.png"
+  },
+  {
+    "id": "ahri",
+    "name_es": "Ahri",
+    "roles_es": ["Mago", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Ahri.png"
+  },
+  {
+    "id": "akali",
+    "name_es": "Akali",
+    "roles_es": ["Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Akali.png"
+  },
+  {
+    "id": "akshan",
+    "name_es": "Akshan",
+    "roles_es": ["Tirador", "Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Akshan.png"
+  },
+  {
+    "id": "alistar",
+    "name_es": "Alistar",
+    "roles_es": ["Tanque", "Apoyo"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Alistar.png"
+  },
+  {
+    "id": "ambessa",
+    "name_es": "Ambessa",
+    "roles_es": ["Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Ambessa.png"
+  },
+  {
+    "id": "amumu",
+    "name_es": "Amumu",
+    "roles_es": ["Tanque", "Mago"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Amumu.png"
+  },
+  {
+    "id": "annie",
+    "name_es": "Annie",
+    "roles_es": ["Mago"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Annie.png"
+  },
+  {
+    "id": "ashe",
+    "name_es": "Ashe",
+    "roles_es": ["Tirador", "Apoyo"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Ashe.png"
+  },
+  {
+    "id": "aurelionsol",
+    "name_es": "Aurelion Sol",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/AurelionSol.png"
+  },
+  {
+    "id": "aurora",
+    "name_es": "Aurora",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Aurora.png"
+  },
+  {
+    "id": "bard",
+    "name_es": "Bard",
+    "roles_es": ["Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Bard.png"
+  },
+  {
+    "id": "blitzcrank",
+    "name_es": "Blitzcrank",
+    "roles_es": ["Tanque", "Apoyo"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Blitzcrank.png"
+  },
+  {
+    "id": "brand",
+    "name_es": "Brand",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Brand.png"
+  },
+  {
+    "id": "braum",
+    "name_es": "Braum",
+    "roles_es": ["Tanque", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Braum.png"
+  },
+  {
+    "id": "caitlyn",
+    "name_es": "Caitlyn",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Caitlyn.png"
+  },
+  {
+    "id": "camille",
+    "name_es": "Camille",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Camille.png"
+  },
+  {
+    "id": "corki",
+    "name_es": "Corki",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Corki.png"
+  },
+  {
+    "id": "darius",
+    "name_es": "Darius",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Darius.png"
+  },
+  {
+    "id": "diana",
+    "name_es": "Diana",
+    "roles_es": ["Luchador", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Diana.png"
+  },
+  {
+    "id": "drmundo",
+    "name_es": "Dr. Mundo",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/DrMundo.png"
+  },
+  {
+    "id": "draven",
+    "name_es": "Draven",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Draven.png"
+  },
+  {
+    "id": "ekko",
+    "name_es": "Ekko",
+    "roles_es": ["Asesino", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Ekko.png"
+  },
+  {
+    "id": "evelynn",
+    "name_es": "Evelynn",
+    "roles_es": ["Asesino", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Evelynn.png"
+  },
+  {
+    "id": "ezreal",
+    "name_es": "Ezreal",
+    "roles_es": ["Tirador", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Ezreal.png"
+  },
+  {
+    "id": "fiddlesticks",
+    "name_es": "Fiddlesticks",
+    "roles_es": ["Mago", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Fiddlesticks.png"
+  },
+  {
+    "id": "fiora",
+    "name_es": "Fiora",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Fiora.png"
+  },
+  {
+    "id": "fizz",
+    "name_es": "Fizz",
+    "roles_es": ["Asesino", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Fizz.png"
+  },
+  {
+    "id": "galio",
+    "name_es": "Galio",
+    "roles_es": ["Tanque", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Galio.png"
+  },
+  {
+    "id": "garen",
+    "name_es": "Garen",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Garen.png"
+  },
+  {
+    "id": "gnar",
+    "name_es": "Gnar",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Gnar.png"
+  },
+  {
+    "id": "gragas",
+    "name_es": "Gragas",
+    "roles_es": ["Luchador", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Gragas.png"
+  },
+  {
+    "id": "graves",
+    "name_es": "Graves",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Graves.png"
+  },
+  {
+    "id": "gwen",
+    "name_es": "Gwen",
+    "roles_es": ["Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Gwen.png"
+  },
+  {
+    "id": "hecarim",
+    "name_es": "Hecarim",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Hecarim.png"
+  },
+  {
+    "id": "heimerdinger",
+    "name_es": "Heimerdinger",
+    "roles_es": ["Mago", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Heimerdinger.png"
+  },
+  {
+    "id": "irelia",
+    "name_es": "Irelia",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Irelia.png"
+  },
+  {
+    "id": "janna",
+    "name_es": "Janna",
+    "roles_es": ["Apoyo", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Janna.png"
+  },
+  {
+    "id": "jarvaniv",
+    "name_es": "Jarvan IV",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/JarvanIV.png"
+  },
+  {
+    "id": "jax",
+    "name_es": "Jax",
+    "roles_es": ["Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Jax.png"
+  },
+  {
+    "id": "jayce",
+    "name_es": "Jayce",
+    "roles_es": ["Luchador", "Tirador"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Jayce.png"
+  },
+  {
+    "id": "jhin",
+    "name_es": "Jhin",
+    "roles_es": ["Tirador", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Jhin.png"
+  },
+  {
+    "id": "jinx",
+    "name_es": "Jinx",
+    "roles_es": ["Tirador"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Jinx.png"
+  },
+  {
+    "id": "ksante",
+    "name_es": "K'Sante",
+    "roles_es": ["Tanque", "Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/KSante.png"
+  },
+  {
+    "id": "kaisa",
+    "name_es": "Kai'Sa",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Kaisa.png"
+  },
+  {
+    "id": "kalista",
+    "name_es": "Kalista",
+    "roles_es": ["Tirador"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Kalista.png"
+  },
+  {
+    "id": "karma",
+    "name_es": "Karma",
+    "roles_es": ["Mago", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Karma.png"
+  },
+  {
+    "id": "kassadin",
+    "name_es": "Kassadin",
+    "roles_es": ["Asesino", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Kassadin.png"
+  },
+  {
+    "id": "katarina",
+    "name_es": "Katarina",
+    "roles_es": ["Asesino", "Mago"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Katarina.png"
+  },
+  {
+    "id": "kayle",
+    "name_es": "Kayle",
+    "roles_es": ["Luchador", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Kayle.png"
+  },
+  {
+    "id": "kayn",
+    "name_es": "Kayn",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Kayn.png"
+  },
+  {
+    "id": "kennen",
+    "name_es": "Kennen",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Kennen.png"
+  },
+  {
+    "id": "khazix",
+    "name_es": "Kha'Zix",
+    "roles_es": ["Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Khazix.png"
+  },
+  {
+    "id": "kindred",
+    "name_es": "Kindred",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Kindred.png"
+  },
+  {
+    "id": "kogmaw",
+    "name_es": "Kog'Maw",
+    "roles_es": ["Tirador", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/KogMaw.png"
+  },
+  {
+    "id": "leesin",
+    "name_es": "Lee Sin",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/LeeSin.png"
+  },
+  {
+    "id": "leona",
+    "name_es": "Leona",
+    "roles_es": ["Tanque", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Leona.png"
+  },
+  {
+    "id": "lilia",
+    "name_es": "Lilia",
+    "roles_es": ["Luchador", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Lilia.png"
+  },
+  {
+    "id": "lissandra",
+    "name_es": "Lissandra",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Lissandra.png"
+  },
+  {
+    "id": "lucian",
+    "name_es": "Lucian",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Lucian.png"
+  },
+  {
+    "id": "lulu",
+    "name_es": "Lulu",
+    "roles_es": ["Apoyo", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Lulu.png"
+  },
+  {
+    "id": "lux",
+    "name_es": "Lux",
+    "roles_es": ["Mago", "Apoyo"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Lux.png"
+  },
+  {
+    "id": "masteryi",
+    "name_es": "Maestro Yi",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/MasterYi.png"
+  },
+  {
+    "id": "malphite",
+    "name_es": "Malphite",
+    "roles_es": ["Tanque", "Mago"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Malphite.png"
+  },
+  {
+    "id": "maokai",
+    "name_es": "Maokai",
+    "roles_es": ["Tanque", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Maokai.png"
+  },
+  {
+    "id": "mel",
+    "name_es": "Mel",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Mel.png"
+  },
+  {
+    "id": "milio",
+    "name_es": "Milio",
+    "roles_es": ["Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Milio.png"
+  },
+  {
+    "id": "missfortune",
+    "name_es": "Miss Fortune",
+    "roles_es": ["Tirador"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/MissFortune.png"
+  },
+  {
+    "id": "mordekaiser",
+    "name_es": "Mordekaiser",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Mordekaiser.png"
+  },
+  {
+    "id": "morgana",
+    "name_es": "Morgana",
+    "roles_es": ["Mago", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Morgana.png"
+  },
+  {
+    "id": "nami",
+    "name_es": "Nami",
+    "roles_es": ["Apoyo", "Mago"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Nami.png"
+  },
+  {
+    "id": "nasus",
+    "name_es": "Nasus",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Nasus.png"
+  },
+  {
+    "id": "nautilus",
+    "name_es": "Nautilus",
+    "roles_es": ["Tanque", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Nautilus.png"
+  },
+  {
+    "id": "nidalee",
+    "name_es": "Nidalee",
+    "roles_es": ["Asesino", "Mago"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Nidalee.png"
+  },
+  {
+    "id": "nilah",
+    "name_es": "Nilah",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Nilah.png"
+  },
+  {
+    "id": "nocturne",
+    "name_es": "Nocturne",
+    "roles_es": ["Asesino", "Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Nocturne.png"
+  },
+
+  {
+    "id": "nunu",
+    "name_es": "Nunu y Willump",
+    "roles_es": ["Tanque", "Mago"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Nunu.png"
+  },
+  {
+    "id": "olaf",
+    "name_es": "Olaf",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Olaf.png"
+  },
+  {
+    "id": "orianna",
+    "name_es": "Orianna",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Orianna.png"
+  },
+  {
+    "id": "ornn",
+    "name_es": "Ornn",
+    "roles_es": ["Tanque", "Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Ornn.png"
+  },
+  {
+    "id": "pantheon",
+    "name_es": "Pantheon",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Pantheon.png"
+  },
+  {
+    "id": "poppy",
+    "name_es": "Poppy",
+    "roles_es": ["Tanque", "Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Poppy.png"
+  },
+  {
+    "id": "pyke",
+    "name_es": "Pyke",
+    "roles_es": ["Asesino", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Pyke.png"
+  },
+  {
+    "id": "rakan",
+    "name_es": "Rakan",
+    "roles_es": ["Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Rakan.png"
+  },
+  {
+    "id": "rammus",
+    "name_es": "Rammus",
+    "roles_es": ["Tanque"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Rammus.png"
+  },
+  {
+    "id": "rell",
+    "name_es": "Rell",
+    "roles_es": ["Tanque", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Rell.png"
+  },
+  {
+    "id": "renekton",
+    "name_es": "Renekton",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Renekton.png"
+  },
+  {
+    "id": "rengar",
+    "name_es": "Rengar",
+    "roles_es": ["Asesino", "Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Rengar.png"
+  },
+  {
+    "id": "riven",
+    "name_es": "Riven",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Riven.png"
+  },
+  {
+    "id": "rumble",
+    "name_es": "Rumble",
+    "roles_es": ["Luchador", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Rumble.png"
+  },
+  {
+    "id": "ryze",
+    "name_es": "Ryze",
+    "roles_es": ["Mago"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Ryze.png"
+  },
+  {
+    "id": "samira",
+    "name_es": "Samira",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Samira.png"
+  },
+  {
+    "id": "senna",
+    "name_es": "Senna",
+    "roles_es": ["Tirador", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Senna.png"
+  },
+  {
+    "id": "seraphine",
+    "name_es": "Seraphine",
+    "roles_es": ["Mago", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Seraphine.png"
+  },
+  {
+    "id": "sett",
+    "name_es": "Sett",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Sett.png"
+  },
+  {
+    "id": "shen",
+    "name_es": "Shen",
+    "roles_es": ["Tanque", "Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Shen.png"
+  },
+  {
+    "id": "shyvana",
+    "name_es": "Shyvana",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Shyvana.png"
+  },
+  {
+    "id": "singed",
+    "name_es": "Singed",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Singed.png"
+  },
+  {
+    "id": "sion",
+    "name_es": "Sion",
+    "roles_es": ["Tanque", "Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Sion.png"
+  },
+  {
+    "id": "sivir",
+    "name_es": "Sivir",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Sivir.png"
+  },
+  {
+    "id": "skarner",
+    "name_es": "Skarner",
+    "roles_es": ["Tanque", "Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Skarner.png"
+  },
+  {
+    "id": "smolder",
+    "name_es": "Smolder",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Smolder.png"
+  },
+  {
+    "id": "sona",
+    "name_es": "Sona",
+    "roles_es": ["Apoyo", "Mago"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Sona.png"
+  },
+  {
+    "id": "soraka",
+    "name_es": "Soraka",
+    "roles_es": ["Apoyo", "Mago"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Soraka.png"
+  },
+  {
+    "id": "swain",
+    "name_es": "Swain",
+    "roles_es": ["Mago", "Luchador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Swain.png"
+  },
+  {
+    "id": "syndra",
+    "name_es": "Syndra",
+    "roles_es": ["Mago"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Syndra.png"
+  },
+  {
+    "id": "taliyah",
+    "name_es": "Taliyah",
+    "roles_es": ["Mago", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Taliyah.png"
+  },
+  {
+    "id": "talon",
+    "name_es": "Talon",
+    "roles_es": ["Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Talon.png"
+  },
+  {
+    "id": "teemo",
+    "name_es": "Teemo",
+    "roles_es": ["Luchador", "Tirador"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Teemo.png"
+  },
+  {
+    "id": "thresh",
+    "name_es": "Thresh",
+    "roles_es": ["Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Thresh.png"
+  },
+  {
+    "id": "tristana",
+    "name_es": "Tristana",
+    "roles_es": ["Tirador"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Tristana.png"
+  },
+  {
+    "id": "tryndamere",
+    "name_es": "Tryndamere",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Tryndamere.png"
+  },
+  {
+    "id": "twistedfate",
+    "name_es": "Twisted Fate",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/TwistedFate.png"
+  },
+  {
+    "id": "twitch",
+    "name_es": "Twitch",
+    "roles_es": ["Tirador", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Twitch.png"
+  },
+  {
+    "id": "urgot",
+    "name_es": "Urgot",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Urgot.png"
+  },
+  {
+    "id": "varus",
+    "name_es": "Varus",
+    "roles_es": ["Tirador", "Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Varus.png"
+  },
+  {
+    "id": "vayne",
+    "name_es": "Vayne",
+    "roles_es": ["Tirador", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Vayne.png"
+  },
+  {
+    "id": "veigar",
+    "name_es": "Veigar",
+    "roles_es": ["Mago"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Veigar.png"
+  },
+  {
+    "id": "velkoz",
+    "name_es": "Vel'Koz",
+    "roles_es": ["Mago", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Velkoz.png"
+  },
+  {
+    "id": "vex",
+    "name_es": "Vex",
+    "roles_es": ["Mago", "Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Vex.png"
+  },
+  {
+    "id": "vi",
+    "name_es": "Vi",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Vi.png"
+  },
+  {
+    "id": "viego",
+    "name_es": "Viego",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Viego.png"
+  },
+  {
+    "id": "viktor",
+    "name_es": "Viktor",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Viktor.png"
+  },
+  {
+    "id": "vladimir",
+    "name_es": "Vladimir",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Vladimir.png"
+  },
+  {
+    "id": "volibear",
+    "name_es": "Volibear",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Volibear.png"
+  },
+  {
+    "id": "warwick",
+    "name_es": "Warwick",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 1,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Warwick.png"
+  },
+  {
+    "id": "monkeyking",
+    "name_es": "Wukong",
+    "roles_es": ["Luchador", "Tanque"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/MonkeyKing.png"
+  },
+  {
+    "id": "xayah",
+    "name_es": "Xayah",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Xayah.png"
+  },
+  {
+    "id": "xinzhao",
+    "name_es": "Xin Zhao",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/XinZhao.png"
+  },
+  {
+    "id": "yasuo",
+    "name_es": "Yasuo",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Yasuo.png"
+  },
+  {
+    "id": "yone",
+    "name_es": "Yone",
+    "roles_es": ["Luchador", "Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Yone.png"
+  },
+  {
+    "id": "yuumi",
+    "name_es": "Yuumi",
+    "roles_es": ["Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Yuumi.png"
+  },
+  {
+    "id": "zed",
+    "name_es": "Zed",
+    "roles_es": ["Asesino"],
+    "difficulty": 3,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Zed.png"
+  },
+  {
+    "id": "zeri",
+    "name_es": "Zeri",
+    "roles_es": ["Tirador"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Zeri.png"
+  },
+  {
+    "id": "ziggs",
+    "name_es": "Ziggs",
+    "roles_es": ["Mago", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Ziggs.png"
+  },
+  {
+    "id": "zilean",
+    "name_es": "Zilean",
+    "roles_es": ["Mago", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Zilean.png"
+  },
+  {
+    "id": "zoe",
+    "name_es": "Zoe",
+    "roles_es": ["Mago"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Zoe.png"
+  },
+  {
+    "id": "zyra",
+    "name_es": "Zyra",
+    "roles_es": ["Mago", "Apoyo"],
+    "difficulty": 2,
+    "image": "https://ddragon.leagueoflegends.com/cdn/16.14.1/img/champion/Zyra.png"
+  }
+]

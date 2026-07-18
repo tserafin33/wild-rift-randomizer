@@ -1,0 +1,37 @@
+[
+  {
+    "id": "flash",
+    "name_es": "Destello",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/spell/SummonerFlash.png"
+  },
+  {
+    "id": "heal",
+    "name_es": "Curar",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/spell/SummonerHeal.png"
+  },
+  {
+    "id": "barrier",
+    "name_es": "Barrera",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/spell/SummonerBarrier.png"
+  },
+  {
+    "id": "ignite",
+    "name_es": "Ignición",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/spell/SummonerDot.png"
+  },
+  {
+    "id": "exhaust",
+    "name_es": "Exhausto",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/spell/SummonerExhaust.png"
+  },
+  {
+    "id": "ghost",
+    "name_es": "Fantasma",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/spell/SummonerHaste.png"
+  },
+  {
+    "id": "smite",
+    "name_es": "Aplastar",
+    "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/spell/SummonerSmite.png"
+  }
+]

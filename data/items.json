@@ -1,0 +1,926 @@
+{
+  "physical": [
+    {
+      "id": "bloodthirster",
+      "name_es": "Filoespina",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3400,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3072.png"
+    },
+    {
+      "id": "blade-of-the-ruined-king",
+      "name_es": "Hoja del Rey Arruinado",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3153.png"
+    },
+    {
+      "id": "runaans-hurricane",
+      "name_es": "Huracán de Runaan",
+      "category": "physical",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3085.png"
+    },
+    {
+      "id": "duskblade-of-draktharr",
+      "name_es": "Hoja del Crepúsculo de Draktharr",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6691.png"
+    },
+    {
+      "id": "mortal-reminder",
+      "name_es": "Recordatorio Mortal",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3033.png"
+    },
+    {
+      "id": "manamune",
+      "name_es": "Manamune",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3004.png"
+    },
+    {
+      "id": "maw-of-malmortius",
+      "name_es": "Fauces de Malmortius",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3156.png"
+    },
+    {
+      "id": "phantom-dancer",
+      "name_es": "Bailarín Espectral",
+      "category": "physical",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3046.png"
+    },
+    {
+      "id": "statikk-shiv",
+      "name_es": "Escudo de Statikk",
+      "category": "physical",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3087.png"
+    },
+    {
+      "id": "rapid-firecannon",
+      "name_es": "Cañón de Fuego Rápido",
+      "category": "physical",
+      "tier": 3,
+      "cost": 2600,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3094.png"
+    },
+    {
+      "id": "youmuus-ghostblade",
+      "name_es": "Hoja Fantasma de Youmuu",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3142.png"
+    },
+    {
+      "id": "infinity-edge",
+      "name_es": "Filo de la Infinitud",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3400,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3031.png"
+    },
+    {
+      "id": "black-cleaver",
+      "name_es": "Cleaver Negro",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3071.png"
+    },
+    {
+      "id": "trinity-force",
+      "name_es": "Fuerza Triangular",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3333,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3078.png"
+    },
+    {
+      "id": "deaths-dance",
+      "name_es": "Danza de la Muerte",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6333.png"
+    },
+    {
+      "id": "eclipse",
+      "name_es": "Eclipse",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6692.png"
+    },
+    {
+      "id": "edge-of-night",
+      "name_es": "Filo de la Noche",
+      "category": "physical",
+      "tier": 3,
+      "cost": 2900,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3814.png"
+    },
+    {
+      "id": "essence-reaver",
+      "name_es": "Robaessencia",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3508.png"
+    },
+    {
+      "id": "guardian-angel",
+      "name_es": "Ángel Guardián",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3026.png"
+    },
+    {
+      "id": "guinsoos-rageblade",
+      "name_es": "Hoja de la Rabia de Guinsoo",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3124.png"
+    },
+    {
+      "id": "hullbreaker",
+      "name_es": "Rompecascos",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3181.png"
+    },
+    {
+      "id": "immortal-shieldbow",
+      "name_es": "Arco Escudo Inmortal",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6673.png"
+    },
+    {
+      "id": "kraken-slayer",
+      "name_es": "Matadracos",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6672.png"
+    },
+    {
+      "id": "lord-dominiks-regards",
+      "name_es": "Saludos del Señor Dominik",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3036.png"
+    },
+    {
+      "id": "magnetic-blaster",
+      "name_es": "Blaster Magnético",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3091.png"
+    },
+    {
+      "id": "nashors-tooth",
+      "name_es": "Diente de Nashor",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3115.png"
+    },
+    {
+      "id": "navori-quickblades",
+      "name_es": "Filonavar Quickblades",
+      "category": "physical",
+      "tier": 3,
+      "cost": 2600,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6675.png"
+    },
+    {
+      "id": "serpents-fang",
+      "name_es": "Colmillo de Serpiente",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6695.png"
+    },
+    {
+      "id": "seryldas-grudge",
+      "name_es": "Rencor de Serylda",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6694.png"
+    },
+    {
+      "id": "soul-transfer",
+      "name_es": "Transferencia de Alma",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6693.png"
+    },
+    {
+      "id": "spear-of-shojin",
+      "name_es": "Lanza de Shojin",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3161.png"
+    },
+    {
+      "id": "stormrazor",
+      "name_es": "Tormenta de Hojas",
+      "category": "physical",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3095.png"
+    },
+    {
+      "id": "sundered-sky",
+      "name_es": "Cielo Dividido",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6610.png"
+    },
+    {
+      "id": "terminus",
+      "name_es": "Terminus",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3302.png"
+    },
+    {
+      "id": "the-collector",
+      "name_es": "El Coleccionista",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6676.png"
+    },
+    {
+      "id": "wits-end",
+      "name_es": "Fin de la Voluntad",
+      "category": "physical",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3091.png"
+    },
+    {
+      "id": "chempunk-chainsword",
+      "name_es": "Espada de Cadena Chempunk",
+      "category": "physical",
+      "tier": 3,
+      "cost": 2900,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6609.png"
+    },
+    {
+      "id": "experimental-hexplate",
+      "name_es": "Placa Hexagonal Experimental",
+      "category": "physical",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3073.png"
+    }
+  ],
+  "magic": [
+    {
+      "id": "archangels-staff",
+      "name_es": "Bastón del Archángel",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3003.png"
+    },
+    {
+      "id": "awakened-soulstealer",
+      "name_es": "Robaalmas Despierto",
+      "category": "magic",
+      "tier": 3,
+      "cost": 1600,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3041.png"
+    },
+    {
+      "id": "bandle-fantasy",
+      "name_es": "Fantasía de Bandle",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/4629.png"
+    },
+    {
+      "id": "cosmic-drive",
+      "name_es": "Propulsor Cósmico",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/4629.png"
+    },
+    {
+      "id": "crown-of-the-shattered-queen",
+      "name_es": "Corona de la Reina Rota",
+      "category": "magic",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/4644.png"
+    },
+    {
+      "id": "horizon-focus",
+      "name_es": "Horizonte de Enfoque",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/4628.png"
+    },
+    {
+      "id": "infinity-orb",
+      "name_es": "Orbe de la Infinitud",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3089.png"
+    },
+    {
+      "id": "liandrys-torment",
+      "name_es": "Tormento de Liandry",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6653.png"
+    },
+    {
+      "id": "lich-bane",
+      "name_es": "Banda de Lich",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3100.png"
+    },
+    {
+      "id": "ludens-echo",
+      "name_es": "Eco de Luden",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6655.png"
+    },
+    {
+      "id": "malignance",
+      "name_es": "Malignancia",
+      "category": "magic",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3118.png"
+    },
+    {
+      "id": "morellonomicon",
+      "name_es": "Morellonomicon",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3165.png"
+    },
+    {
+      "id": "oceanids-trident",
+      "name_es": "Tridente de Oceánida",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3003.png"
+    },
+    {
+      "id": "rabadons-deathcap",
+      "name_es": "Sombrero Mortífero de Rabadon",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3600,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3089.png"
+    },
+    {
+      "id": "riftmaker",
+      "name_es": "Hacedor de Grietas",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/4633.png"
+    },
+    {
+      "id": "rylais-crystal-scepter",
+      "name_es": "Cetro de Cristal de Rylai",
+      "category": "magic",
+      "tier": 3,
+      "cost": 2600,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3116.png"
+    },
+    {
+      "id": "rod-of-ages",
+      "name_es": "Báculo de las Eras",
+      "category": "magic",
+      "tier": 3,
+      "cost": 2600,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6657.png"
+    },
+    {
+      "id": "staff-of-flowing-water",
+      "name_es": "Bastón de Agua Fluyente",
+      "category": "magic",
+      "tier": 3,
+      "cost": 2300,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6616.png"
+    },
+    {
+      "id": "stormsurge",
+      "name_es": "Oleada de Tormenta",
+      "category": "magic",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/4646.png"
+    },
+    {
+      "id": "twin-shadows",
+      "name_es": "Sombras Gemelas",
+      "category": "magic",
+      "tier": 3,
+      "cost": 2400,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/4628.png"
+    }
+  ],
+  "defense": [
+    {
+      "id": "abyssal-mask",
+      "name_es": "Máscara Abisal",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2300,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/8020.png"
+    },
+    {
+      "id": "amaranths-twinguard",
+      "name_es": "Guardián Gemelo de Amaranto",
+      "category": "defense",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3193.png"
+    },
+    {
+      "id": "dead-mans-plate",
+      "name_es": "Placa del Hombre Muerto",
+      "category": "defense",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3742.png"
+    },
+    {
+      "id": "dawnshroud",
+      "name_es": "Manto del Amanecer",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6664.png"
+    },
+    {
+      "id": "force-of-nature",
+      "name_es": "Fuerza de la Naturaleza",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2900,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/4401.png"
+    },
+    {
+      "id": "frozen-heart",
+      "name_es": "Corazón Helado",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2500,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3110.png"
+    },
+    {
+      "id": "gargoyle-stoneplate",
+      "name_es": "Placa de Piedra de Gárgola",
+      "category": "defense",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3193.png"
+    },
+    {
+      "id": "heartsteel",
+      "name_es": "Acero Cardíaco",
+      "category": "defense",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3084.png"
+    },
+    {
+      "id": "hollow-radiance",
+      "name_es": "Radiación Hueca",
+      "category": "defense",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6664.png"
+    },
+    {
+      "id": "iceborn-gauntlet",
+      "name_es": "Guantelete de Hielo",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2600,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6662.png"
+    },
+    {
+      "id": "kaenic-rookern",
+      "name_es": "Rookern de Kaenic",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2900,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/2504.png"
+    },
+    {
+      "id": "mantle-of-the-twelfth-hour",
+      "name_es": "Manto de la Duodécima Hora",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3102.png"
+    },
+    {
+      "id": "overlords-bloodmail",
+      "name_es": "Correo de Sangre del Señor",
+      "category": "defense",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/2501.png"
+    },
+    {
+      "id": "phantom-dancer-defense",
+      "name_es": "Bailarín Espectral Defensivo",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3046.png"
+    },
+    {
+      "id": "randuins-omen",
+      "name_es": "Omen de Randuin",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2700,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3143.png"
+    },
+    {
+      "id": "raptor-cloak",
+      "name_es": "Capa de Raptor",
+      "category": "defense",
+      "tier": 2,
+      "cost": 1000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/1029.png"
+    },
+    {
+      "id": "spirit-visage",
+      "name_es": "Visión Espiritual",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2900,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3065.png"
+    },
+    {
+      "id": "sunfire-aegis",
+      "name_es": "Égida de Fuego Solar",
+      "category": "defense",
+      "tier": 3,
+      "cost": 3200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3068.png"
+    },
+    {
+      "id": "thornmail",
+      "name_es": "Malla de Espinas",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2700,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3075.png"
+    },
+    {
+      "id": "unending-despair",
+      "name_es": "Desesperación Sin Fin",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/2502.png"
+    },
+    {
+      "id": "warmogs-armor",
+      "name_es": "Armadura de Warmog",
+      "category": "defense",
+      "tier": 3,
+      "cost": 3000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3083.png"
+    },
+    {
+      "id": "winters-approach",
+      "name_es": "Aproximación del Invierno",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2600,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3119.png"
+    },
+    {
+      "id": "zekes-convergence",
+      "name_es": "Convergencia de Zeke",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3050.png"
+    },
+    {
+      "id": "fimbulwinter",
+      "name_es": "Fimbulwinter",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2600,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3121.png"
+    },
+    {
+      "id": "searing-crown",
+      "name_es": "Corona Ardiente",
+      "category": "defense",
+      "tier": 3,
+      "cost": 2800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3068.png"
+    }
+  ],
+  "boots": [
+    {
+      "id": "boots-of-speed",
+      "name_es": "Botas de Velocidad",
+      "category": "boots",
+      "tier": 1,
+      "cost": 300,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/1001.png"
+    },
+    {
+      "id": "boots-of-dynamism",
+      "name_es": "Botas de Dinamismo",
+      "category": "boots",
+      "tier": 1,
+      "cost": 500,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/1001.png"
+    },
+    {
+      "id": "boots-of-mana",
+      "name_es": "Botas de Maná",
+      "category": "boots",
+      "tier": 1,
+      "cost": 500,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/1001.png"
+    },
+    {
+      "id": "berserkers-greaves",
+      "name_es": "Botas de Berserker",
+      "category": "boots",
+      "tier": 2,
+      "cost": 1100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3006.png"
+    },
+    {
+      "id": "gluttonous-greaves",
+      "name_es": "Botas Glotonas",
+      "category": "boots",
+      "tier": 2,
+      "cost": 1000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/1001.png"
+    },
+    {
+      "id": "ionian-boots-of-lucidity",
+      "name_es": "Botas Jonias de Lucidez",
+      "category": "boots",
+      "tier": 2,
+      "cost": 950,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3158.png"
+    },
+    {
+      "id": "mercurys-treads",
+      "name_es": "Botas de Mercurio",
+      "category": "boots",
+      "tier": 2,
+      "cost": 1100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3111.png"
+    },
+    {
+      "id": "plated-steelcaps",
+      "name_es": "Escarpines de Acero",
+      "category": "boots",
+      "tier": 2,
+      "cost": 1100,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3047.png"
+    },
+    {
+      "id": "boots-of-swiftness",
+      "name_es": "Botas de Rapidez",
+      "category": "boots",
+      "tier": 2,
+      "cost": 900,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3009.png"
+    }
+  ],
+  "enchant": [
+    {
+      "id": "stasis-enchant",
+      "name_es": "Encantamiento de Estasis",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 1000,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3157.png"
+    },
+    {
+      "id": "quicksilver-enchant",
+      "name_es": "Encantamiento de Plata Rápida",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3140.png"
+    },
+    {
+      "id": "glorious-enchant",
+      "name_es": "Encantamiento Glorioso",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6029.png"
+    },
+    {
+      "id": "stridebreaker-enchant",
+      "name_es": "Encantamiento Rompevelocidad",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6631.png"
+    },
+    {
+      "id": "goredrinker-enchant",
+      "name_es": "Encantamiento Bebedor de Sangre",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6630.png"
+    },
+    {
+      "id": "stoneplate-enchant",
+      "name_es": "Encantamiento de Piedra",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3193.png"
+    },
+    {
+      "id": "protobelt-enchant",
+      "name_es": "Encantamiento Protocinturón",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3152.png"
+    },
+    {
+      "id": "galeforce-enchant",
+      "name_es": "Encantamiento Fuerza de Tormenta",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6671.png"
+    },
+    {
+      "id": "veil-enchant",
+      "name_es": "Encantamiento de Velo",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3102.png"
+    },
+    {
+      "id": "locket-enchant",
+      "name_es": "Encantamiento de Loco",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3190.png"
+    },
+    {
+      "id": "dream-maker-enchant",
+      "name_es": "Encantamiento Creador de Sueños",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3870.png"
+    },
+    {
+      "id": "teleport-enchant",
+      "name_es": "Encantamiento de Teletransporte",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3340.png"
+    },
+    {
+      "id": "exhaust-enchant",
+      "name_es": "Encantamiento de Agotamiento",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/2138.png"
+    },
+    {
+      "id": "heal-enchant",
+      "name_es": "Encantamiento de Curación",
+      "category": "enchant",
+      "tier": 3,
+      "cost": 800,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/2003.png"
+    }
+  ],
+  "support": [
+    {
+      "id": "ardent-censer",
+      "name_es": "Incensador Ardiente",
+      "category": "support",
+      "tier": 3,
+      "cost": 2300,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3504.png"
+    },
+    {
+      "id": "harmonic-echo",
+      "name_es": "Eco Armónico",
+      "category": "support",
+      "tier": 3,
+      "cost": 2300,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/6616.png"
+    },
+    {
+      "id": "imperial-mandate",
+      "name_es": "Mandato Imperial",
+      "category": "support",
+      "tier": 3,
+      "cost": 2500,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/4005.png"
+    },
+    {
+      "id": "knights-vow",
+      "name_es": "Juramento del Caballero",
+      "category": "support",
+      "tier": 3,
+      "cost": 2300,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3109.png"
+    },
+    {
+      "id": "locket",
+      "name_es": "Loco de la Solari de Hierro",
+      "category": "support",
+      "tier": 3,
+      "cost": 2500,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3190.png"
+    },
+    {
+      "id": "redemption",
+      "name_es": "Redención",
+      "category": "support",
+      "tier": 3,
+      "cost": 2300,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3107.png"
+    },
+    {
+      "id": "zekes-convergence-support",
+      "name_es": "Convergencia de Zeke de Soporte",
+      "category": "support",
+      "tier": 3,
+      "cost": 2200,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3050.png"
+    },
+    {
+      "id": "dream-maker",
+      "name_es": "Creador de Sueños",
+      "category": "support",
+      "tier": 3,
+      "cost": 2300,
+      "image": "https://ddragon.leagueoflegends.com/cdn/14.12.1/img/item/3870.png"
+    }
+  ]
+}
