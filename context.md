@@ -251,3 +251,15 @@
   - Remove basic boots entirely: Wild Rift builds always start from upgraded boots
   - Combat items pool already excludes non-combat categories — no code change needed
 - **Next:** Deploy to free hosting
+
+## 2026-07-18 - Session 22
+- **Goal:** Deploy to Vercel
+- **Result:**
+  1. Installed Git + GitHub CLI via winget
+  2. Configured git identity (mariojesusrb@gmail.com)
+  3. Created GitHub repo: https://github.com/tserafin33/wild-rift-randomizer
+  4. Pushed all code (39 files, master branch)
+  5. Deployed to Vercel (wild-rift-randomizer.vercel.app)
+- **Problems:** gh auth needed --web flow, token not persisted in opencode terminal
+- **Decisions:** Public repo on GitHub, Vercel for hosting
+- **Next:** Share URL with users, monitor for issues

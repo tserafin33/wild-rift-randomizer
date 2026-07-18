@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react'
 import itemsData from '../data/items.json'
+import bootsData from '../data/boots.json'
 import runesData from '../data/runes.json'
 import spellsData from '../data/spells.json'
 import RuneIcon from './RuneIcon'
@@ -60,13 +61,13 @@ export default function BuildPhase({ players, assignments, onComplete }) {
     const combat = []
 
     // 1. Boots: upgraded tier 2 boots only (all remaining boots are tier 2)
-    const availableBoots = itemsData.boots
+    const availableBoots = bootsData.boots
     const randomBoots = availableBoots[Math.floor(Math.random() * availableBoots.length)]
     boots.push(randomBoots)
     usedIds.add(randomBoots.id)
 
     // 2. Enchantment (Zhonya's, Protobelt, etc.)
-    const enchants = itemsData.enchant || []
+    const enchants = bootsData.enchant || []
     const randomEnchant = enchants[Math.floor(Math.random() * enchants.length)]
     boots.push(randomEnchant)
     usedIds.add(randomEnchant.id)

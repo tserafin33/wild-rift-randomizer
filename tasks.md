@@ -1,10 +1,10 @@
 # Tasks
 
 ## Current Sprint
-- [ ] Probar flujo completo end-to-end (5 jugadores)
-- [ ] Verificar que imagenes de hechizos cargan correctamente
-- [ ] Verificar que champion aparece en resultados finales
-- [ ] Desplegar en hosting gratuito (Vercel/Netlify/GitHub Pages)
+- [x] Probar flujo completo end-to-end (5 jugadores)
+- [x] Verificar que imagenes de hechizos cargan correctamente
+- [x] Verificar que champion aparece en resultados finales
+- [x] Desplegar en hosting gratuito (Vercel)
 
 ## Backlog
 - [ ] Validacion de combinaciones (no items duplicados, sin soporte sin item de soporte)

@@ -13,7 +13,7 @@ Wild Rift Randomizer - app web que genera builds aleatorias de retos para 1-5 ju
 - [ ] Validacion de combinaciones validas
 - [ ] Sistema de puntuacion/dificultad
 - [ ] Modos de juego (reto, ranked, etc.)
-- [ ] Despliegue en hosting gratuito
+- [x] Despliegue en hosting gratuito (Vercel)
 
 ## Tech Stack
 - **Framework:** Vite + React 19
